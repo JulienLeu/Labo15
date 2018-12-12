@@ -34,8 +34,8 @@ int main(void)
 		printf("\n 4 - Etat des boutons");
 		printf("\n 5 - Gerer le tableau de score");
 		printf("\n 0 - Quitter\n");
-		choix_menu =0 ;
-		//choix_menu = saisirEntier("Choix -> ");
+
+		choix_menu = saisirEntier("Choix -> ");
 
 		switch (choix_menu)
 		{
