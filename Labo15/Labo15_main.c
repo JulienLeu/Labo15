@@ -18,8 +18,9 @@
 /*Prototypes de fonctions*/
 int main(void)
 {
-
-
+	unsigned short registre1 = 0xF000;
+	unsigned char value1 = 0xFF;
+	write_register(registre1, value1);
 	system("PAUSE");
 	return EXIT_SUCCESS;
 
