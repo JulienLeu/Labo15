@@ -5,7 +5,6 @@
 
 #include <stdlib.h>
 
-
 #ifndef PAGE_READWRITE
 #define PAGE_READWRITE 0x04
 #endif
