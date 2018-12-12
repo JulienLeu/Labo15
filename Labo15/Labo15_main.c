@@ -40,7 +40,7 @@ int main(void)
 		{
 			case 0: // Quitter le programme
 			{
-				printf("");
+				printf("Salut");
 				break;
 			}
 			case 1:
