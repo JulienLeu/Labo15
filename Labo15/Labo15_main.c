@@ -1,10 +1,11 @@
-/* Fichier : Labo07.c
- * Auteur  : Julien Leuenberger
- * Date    : 30.10.2018
+/* Fichier : Labo15_main.c
+ * Auteur  : Julien Leuenberger et Quentin Müller
+ * Date    : 12.12.2018
  *
- * Description :	Le programme permet de calculer un interet,
- *					convertir des euros en frs et vice-versa.
- *					Un petit menu facilite la navigation
+ * Description :	Afficher sur des 7 segements
+ *						- 
+ *						- 
+ *
  * Remarque(s) :
  *
  * Modifications : Date / Auteur / Raison
@@ -18,10 +19,8 @@
 /*Prototypes de fonctions*/
 int main(void)
 {
-	unsigned short registre1 = 0xF000;
-	unsigned char value1 = 0xFF;
-	write_register(registre1, value1);
+
+
 	system("PAUSE");
 	return EXIT_SUCCESS;
-
 }
