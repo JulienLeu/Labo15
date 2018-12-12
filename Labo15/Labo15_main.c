@@ -13,6 +13,7 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
+#include "simulateurScore.h"
 
 /*Prototypes de fonctions*/
 int main(void)
