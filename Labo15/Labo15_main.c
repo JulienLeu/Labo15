@@ -18,6 +18,8 @@
 #include "simulateurScore.h"
 
 /*Prototypes de fonctions*/
+void ecriture_reg(int adresse, int val);
+
 int main(void)
 {
 	/* Variable du programme */
@@ -47,7 +49,9 @@ int main(void)
 			}
 			case 1:
 			{
-				
+				unsigned short add = 0XF000;
+				unsigned char  val = 0xFF;
+				write_register(add, val);
 				break;
 			}
 			case 2:
@@ -78,4 +82,9 @@ int main(void)
 		}
 	} while (choix_menu != 0);
 	return EXIT_SUCCESS;
+}
+
+void ecriture_reg(int adresse,int val)
+{
+	write_register(0,val);
 }
